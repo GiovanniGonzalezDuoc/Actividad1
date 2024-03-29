@@ -11,12 +11,12 @@ header h1,p,h2{
 }
   
   /* On mouse-over, add a deeper shadow */
-  .card:hover {
+.card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .Contenedor{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     
 }
 .center{
@@ -27,8 +27,19 @@ header h1,p,h2{
 
 }
 .center-imagen{
+    margin: auto;
+}
+.tamaño-imagen{
+    width: 250px;
+    height: 250px;
+}
+.centrar-izquierda{
+    text-align: end;
+    font-size: 20px;
+}
+.center-text{
+    width: 40rem;
     display: flex;
-    justify-content: center;
+    flex-direction: column; 
     align-items: center;
-
 }
